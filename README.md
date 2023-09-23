@@ -136,6 +136,9 @@ You can now deploy your contract!
 yarn deploy
 ```
 
+実際にデプロイしたアドレス
+[0x6eb2217ff57b1213e34b103854cd453a081925ca](https://goerli-optimism.etherscan.io/address/0x6eb2217ff57b1213e34b103854cd453a081925ca)
+
 ## Developing with Anvil (Optimism Mainnet Fork)
 
 Let's combine the above sections and use Anvil alongside our development environment to use our contracts (`./contracts`) against an Optimism fork.
