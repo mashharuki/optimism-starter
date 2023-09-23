@@ -82,13 +82,13 @@ You will first need to set up your `.env` to tell Forge where to deploy your con
 
    ```sh
    cd optimism-starter
-   npm install
+   yarn
    ```
 
 1. Start the frontend with `npm run dev`
 
    ```sh
-   npm run dev
+   yarn dev
    ```
 
    If you get errors during this step, you might need to [update your Foundry to the latest version](#install-foundry).
@@ -113,7 +113,7 @@ To generate ABIs & Hooks, follow the steps below.
 To generate ABIs & React Hooks from your Foundry project (in `./contracts`), you can run:
 
 ```sh
-npm run wagmi
+yarn wagmi
 ```
 
 This will use the wagmi config (`wagmi.config.ts`) to generate a `src/generated.ts` file which will include your ABIs & Hooks that you can start using in your project.
@@ -133,7 +133,7 @@ Below are the steps to deploying a smart contract to Ethereum Mainnet using Forg
 You can now deploy your contract!
 
 ```sh
-npm run deploy
+yarn deploy
 ```
 
 ## Developing with Anvil (Optimism Mainnet Fork)
@@ -145,7 +145,7 @@ Let's combine the above sections and use Anvil alongside our development environ
 Run the command:
 
 ```sh
-npm run dev:foundry
+yarn dev:foundry
 ```
 
 This will:
@@ -159,7 +159,7 @@ This will:
 Now that we have an Anvil instance up and running, let's deploy our smart contract to the Anvil network:
 
 ```sh
-npm run deploy:anvil
+yarn deploy:anvil
 ```
 
 ## Start developing
@@ -188,3 +188,4 @@ To learn more about [Optimism](https://optimism.io), [Vite](https://vitejs.dev/)
 - [wagmi Examples](https://wagmi.sh/examples/connect-wallet) – a suite of simple examples using wagmi.
 - [@wagmi/cli Documentation](https://wagmi.sh/cli) – learn more about the wagmi CLI.
 - [Vite Documentation](https://vitejs.dev/) – learn about Vite features and API.
+- [optimistic.etherscan](https://optimistic.etherscan.io/)
